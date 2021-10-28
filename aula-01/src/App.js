@@ -1,20 +1,19 @@
 import Greeting from './components/greeting';
 import './App.css';
-// import HomemFeliz from './components/img/homem-feliz-dinheiro.jpg'
+import HomemFeliz from './components/img/homem-feliz-dinheiro.jpg'
 
 
 function App() {
   const user = {
     firstName: 'Turma',
-    lastName: 'XX'
+    lastName: '04'
   }
   
   return (
     <>
     <div className="App">
-      <img src="https://raw.githubusercontent.com/rquadrosDH/imagens/main/homem-feliz-dinheiro.jpg" alt="Homem Feliz"/>
       <Greeting user={user}/>
-      {/* <img src={HomemFeliz} alt="Homem Feliz"/> */}
+      <img src={HomemFeliz} alt="Homem Feliz"/>
     </div>
 
     </>
