@@ -1,15 +1,15 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import './style.css'
+import './style.css';
 
 const Header = ({empresa}) => {
 
-  return (
+  return(
     <header>
-      <h1>{empresa} DH</h1>
+      <h1>{empresa}</h1>
       <nav>
         <ul>
-          <li><a href="#">Kassino</a></li>
-          <li><a href="#outros">Kassino vs Cassino</a></li>
+          <li><a href="#">Valorant</a></li>
+          <li><a href="#galeria">Vídeos</a></li>
           <li><a href="#footer">Footer</a></li>
         </ul>
       </nav>

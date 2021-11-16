@@ -8,6 +8,7 @@ header{
   background: black;
   color: white;
   padding: 20px;
+  z-index: 1;
 }
 
 header h1{
@@ -37,6 +38,6 @@ header li a{
 }
 
 header li a:hover{
-  background-color: red;
+  background: red;
   color: black;
 }

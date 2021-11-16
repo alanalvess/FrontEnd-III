@@ -1,22 +1,13 @@
-import Greeting from './components/greeting';
+import logo from './logo.svg';
 import './App.css';
-import HomemFeliz from './components/img/homem-feliz-dinheiro.jpg'
-
 
 function App() {
-  const user = {
-    firstName: 'Turma',
-    lastName: '04'
-  }
-  
   return (
-    <>
     <div className="App">
-      <Greeting user={user}/>
-      <img src={HomemFeliz} alt="Homem Feliz"/>
+      <header className="App-header">
+       Essa é minha primeira aula de React
+      </header>
     </div>
-
-    </>
   );
 }
 

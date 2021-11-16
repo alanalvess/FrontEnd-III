@@ -1,27 +1,26 @@
 import Header from './components/Header';
 import Banner from './components/Banner';
-import Outros from './components/Outros';
+import Galeria from './components/Galeria';
 import Footer from './components/Footer';
-
 import './App.css';
 
 function App() {
-  const nomeEmpresa = 'Kassino';
+  const nomeEmpresa = 'Rito Gomes';
 
   return (
-    <>
-      <Header empresa={nomeEmpresa} />
-      <main>
-        <Banner>
-          <h2>O que é Kassino?</h2>
-          <p>Kassino é um projeto musical brasileiro de dance music formado em 2003, no Rio de Janeiro. O vocalista do projeto em seu início foi Fher Cassini, sendo mais tarde substituído por Bo Anders.</p>
-
-          <p>Kassino é uma religião criada pelos alunos da turma 1 de 2021 após perderem a sanidade na pandemia do coronga.</p>
-        </Banner>
-        <Outros />
-      </main>
-      <Footer empresa={nomeEmpresa} />
-    </>
+   <>
+    <Header empresa={nomeEmpresa} />
+    <main>
+      <Banner>
+        <h2>O que é Valorant?</h2>
+        <p>
+          A Riot Games apresenta VALORANT: um FPS tático 5x5 com personagens marcantes, mecânica de tiro precisa e habilidades únicas! Saiba mais sobre VALORANT e seu elenco incrível! Um jogo de tiro tático 5x5 com personagens originais.
+        </p>
+      </Banner>
+      <Galeria />
+    </main>
+    <Footer empresa={nomeEmpresa} />
+   </>
   );
 }
 
