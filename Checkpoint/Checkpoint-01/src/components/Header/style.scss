@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+#header {
+
+  background: rgb(25, 25, 25);
+  color: aquamarine;
+
+  .navbar-brand {
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    color:aliceblue;
+  }
+  
+  .nav-link {
+    color: white;
+    padding: 10px;
+    border-radius: 9px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      background-color: whitesmoke;
+      color: rgb(25, 25, 25);
+    }
+  }
+}

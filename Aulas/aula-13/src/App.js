@@ -15,17 +15,10 @@ export default class App extends Component {
   }
   nomeEmpresa = 'Rito Gomes';
 
-  alternaTema = () => {
-    this.setState({
-      temaEscuro: !this.state.temaEscuro
-    });
-  }
-
   render() {
     return (
       <>
         <Header empresa={this.nomeEmpresa} temaEscuro={this.state.temaEscuro} />
-        <img src="https://cdn-icons-png.flaticon.com/512/702/702814.png" alt="Alterna Cor" onClick={this.alternaTema} />
         <main>
           <Banner>
             <h2>O que é Valorant?</h2>
