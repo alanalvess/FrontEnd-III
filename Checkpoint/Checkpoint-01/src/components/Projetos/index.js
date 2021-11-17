@@ -21,32 +21,41 @@ const Projetos = () => {
   return (
     <section id="projetos">
       <h2>Projetos Realizados</h2>
-          <div id="lista">
-            {
-              listaProjetos.map((projeto) => {
-                return (
-                  <h3>
-                    {projeto.nome}
-                  </h3>
-                )
-              })
-            }
-          </div>
+      <div id="lista">
+        {
+          listaProjetos.map((projeto) => {
+            return (
+              <h3>
+                {projeto.nome}
+              </h3>
+            )
+          })
+        }
+      </div>
       <div className="grid">
         <div className="grid-item">
           <div className="image-container">
             <img src="https://github.com/alanalvess/FrontEndI-ChekpointFinal/blob/main/assets/img/logo/retromania_logo_banner1.png?raw=true" alt="Caça Niquel" />
           </div>
+          <a href="https://alanalvess.github.io/FrontEndI-ChekpointFinal/" target="blank">
+            Visite o Projeto
+          </a>
         </div>
         <div className="grid-item">
           <div className="image-container">
             <img src="https://www.covenantmfo.com/wp-content/uploads/2021/08/checklist-1295319_1280.png" alt="Roleta" />
           </div>
+          <a href="https://alanalvess.github.io/FrontEndII-CheckpointII/" target="blank">
+            Visite o Projeto
+          </a>
         </div>
         <div className="grid-item">
           <div className="image-container">
             <img src="https://github.com/alanalvess/formulario/blob/master/img/Imagem1.png?raw=true" alt="Poker" />
           </div>
+          <a href="https://alanalvess.github.io/formulario/" target="blank">
+            Visite o Projeto
+          </a>
         </div>
       </div>
     </section>

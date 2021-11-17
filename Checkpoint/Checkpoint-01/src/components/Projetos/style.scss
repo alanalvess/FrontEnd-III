@@ -38,6 +38,20 @@
           transform: scale(1.1);
         }
       }
+
+      a{
+        background-color: lightgray;
+        text-decoration: none;
+        color: black;
+        padding: 5px;
+        margin: 10px;
+        border-radius: 10px;
+
+        &:hover{
+          background: rgb(25, 25, 25);
+          color: aliceblue;
+        }
+      }
     }
   }
 }
